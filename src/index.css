@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Variables and Base Styling */
+:root {
+  --color-gold: #D4AF37;
+  --color-dark: #000000;
+  --color-dark-card: #111111;
+  --color-white: #FFFFFF;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #FFFFFF;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Headings typography mapping */
+h1, h2, h3, h4, h5, h6, .font-luxury-header {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+/* Glassmorphism Styles */
+.glassmorphism {
+  background: rgba(17, 17, 17, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.glassmorphism-card {
+  background: rgba(17, 17, 17, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glassmorphism-card:hover {
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+/* Luxury Glow Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-gold {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 4s ease-in-out infinite;
+}
+
+/* Button Ripple effect */
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-ripple::after {
+  content: "";
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  padding-top: 240%;
+  padding-left: 240%;
+  margin-top: -120%;
+  margin-left: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.btn-ripple:active::after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+/* Swiper Slider Luxury customization */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 0.3 !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-gold) !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: var(--color-gold) !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  transform: scale(1.1);
+}
+
+/* Gradient boundaries */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #B08E22 0%, #D4AF37 50%, #F5D77F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Reset target element height for React Scroll offset */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
