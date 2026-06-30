@@ -10,7 +10,7 @@ const NewArrivals = () => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
 
   // Filter watches that are marked as new arrivals
-  const newArrivals = watches.filter(watch => watch.isNew);
+  const newArrivals = watches;
 
   // Filter based on active category tab
   const filteredArrivals = activeTab === 'All'
@@ -45,7 +45,7 @@ const NewArrivals = () => {
             Latest Releases
           </span>
           <h2 className="text-3xl md:text-5xl font-light tracking-wide text-white font-luxury-header uppercase">
-            New <span className="text-gold-gradient font-normal">Arrivals</span>
+            Our <span className="text-gold-gradient font-normal">Collections</span>
           </h2>
           <div className="w-16 h-[1px] bg-gold mx-auto mt-4" />
         </div>
@@ -56,11 +56,10 @@ const NewArrivals = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all duration-300 rounded-none relative border ${
-                activeTab === tab
-                  ? 'border-gold text-gold bg-gold/5'
-                  : 'border-transparent text-neutral-400 hover:text-white hover:border-neutral-800'
-              }`}
+              className={`px-6 py-2.5 text-xs font-semibold tracking-widest uppercase transition-all duration-300 rounded-none relative border ${activeTab === tab
+                ? 'border-gold text-gold bg-gold/5'
+                : 'border-transparent text-neutral-400 hover:text-white hover:border-neutral-800'
+                }`}
             >
               {tab === 'All' ? 'All Releases' : `${tab}'s Collection`}
             </button>
@@ -140,9 +139,8 @@ const NewArrivals = () => {
                   {[...Array(5)].map((_, i) => (
                     <FaStar
                       key={i}
-                      className={`w-3.5 h-3.5 ${
-                        i < Math.floor(selectedWatch.rating) ? 'text-gold' : 'text-neutral-700'
-                      }`}
+                      className={`w-3.5 h-3.5 ${i < Math.floor(selectedWatch.rating) ? 'text-gold' : 'text-neutral-700'
+                        }`}
                     />
                   ))}
                   <span className="text-xs text-neutral-400 font-light ml-1">
@@ -186,11 +184,10 @@ const NewArrivals = () => {
                   <button
                     onClick={handleAddToCart}
                     disabled={isAddedToCart}
-                    className={`btn-ripple px-8 py-4 text-xs font-bold tracking-widest uppercase rounded-none transition-all duration-300 ${
-                      isAddedToCart
-                        ? 'bg-emerald-600 text-white'
-                        : 'bg-gold hover:bg-gold-light text-black shadow-gold-soft'
-                    } flex items-center gap-2`}
+                    className={`btn-ripple px-8 py-4 text-xs font-bold tracking-widest uppercase rounded-none transition-all duration-300 ${isAddedToCart
+                      ? 'bg-emerald-600 text-white'
+                      : 'bg-gold hover:bg-gold-light text-black shadow-gold-soft'
+                      } flex items-center gap-2`}
                   >
                     {isAddedToCart ? (
                       <>

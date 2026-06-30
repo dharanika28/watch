@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import showroom from '../assets/showroom.jpg';
 
 const BrandIntro = () => {
   const containerVariants = {
@@ -56,9 +57,9 @@ const BrandIntro = () => {
               <div className="absolute -bottom-2 -right-2 w-8 h-8 border-b border-r border-gold" />
 
               <img
-                src="https://images.unsplash.com/photo-1619134778706-7015533a6150?auto=format&fit=crop&q=80&w=800"
-                alt="LUXYRA Watch Craftmanship"
-                className="w-full h-[350px] md:h-[480px] object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
+                src={showroom}
+                alt="Swiss Watchmaking Craftsmanship"
+                className="w-full h-[350px] md:h-[480px] object-cover rounded-lg shadow-2xl"
                 loading="lazy"
               />
             </motion.div>
