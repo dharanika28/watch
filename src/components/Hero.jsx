@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FaArrowRight } from 'react-icons/fa';
 import home from "../assets/home.jpg";
+import background from "../assets/background.jpg";
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
       {/* Background Image with Dark Vignette Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1600&q=80"
+          src={background}
           alt="Luxury Watch Background"
           className="w-full h-full object-cover opacity-35 object-center transform scale-105 blur-[2px]"
           loading="eager"
