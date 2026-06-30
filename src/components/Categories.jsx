@@ -11,7 +11,7 @@ const Categories = () => {
       title: "Men's Watches",
       subtitle: "Bold & Mechanical",
       description: "Designed for strength, accuracy, and presence. Discover engineered chronographs, dive timepieces, and automatic movements.",
-
+      image: menswatches,
       target: "new-arrivals",
     },
     {
@@ -19,7 +19,7 @@ const Categories = () => {
       title: "Women's Watches",
       subtitle: "Grace & Elegance",
       description: "Refining elegance with precious stones and jewelry-grade rose gold finishes. Timepieces crafted to grace any occasion.",
-
+      image: womenswatches,
       target: "new-arrivals",
     }
   ];

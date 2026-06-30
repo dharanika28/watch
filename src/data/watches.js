@@ -1,10 +1,10 @@
 export const watches = [
   {
     id: 1,
-    name: "Cosmograph Daytona Gold",
+    name: "Submariner Date 'Starbucks'",
     brand: "Rolex",
     price: 34500,
-    category: "Men",
+    category: "men",
     image: "/images/arrival1.jpg",
     description: "The ultimate chronograph tool watch, built with 18ct yellow gold and a stunning tachymetric scale bezel.",
     rating: 4.9,
@@ -14,15 +14,11 @@ export const watches = [
   },
   {
     id: 2,
-    name: "Nautilus 5711 Blue",
-    brand: "Patek Philippe",
+    name: "Omega Speedmaster Professional Moonwatch",
+    brand: "Omega",
     price: 85000,
-    category: "Men",
-<<<<<<< HEAD
-    image: "/images/arrival1.jpg",
-=======
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800",
->>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
+    category: "men",
+    image: "/images/arrival2.jpg",
     description: "With the rounded octagonal bezel of its porthole construction, the Nautilus is the epitome of the elegant sports watch.",
     rating: 5.0,
     discount: 0,
@@ -31,11 +27,11 @@ export const watches = [
   },
   {
     id: 3,
-    name: "Royal Oak Double Balance",
-    brand: "Audemars Piguet",
+    name: "Monaco Calibre Heuer 02",
+    brand: "Tag heuer",
     price: 42000,
-    category: "Men",
-    image: "/images/arrival1.jpg",
+    category: "men",
+    image: "/images/arrival3.jpg",
     description: "Features a skeletonized dial displaying the patented double balance wheel geometry for unparalleled precision.",
     rating: 4.8,
     discount: 15,
@@ -44,11 +40,11 @@ export const watches = [
   },
   {
     id: 4,
-    name: "Ballon Bleu Rose Gold",
+    name: "Tank Française Medium Gold",
     brand: "Cartier",
     price: 68000,
-    category: "Women",
-    image: "/images/arrival1.jpg",
+    category: "women",
+    image: "/images/arrival4.jpg",
     description: "Floating like a balloon and as blue as the cabochon safeguarded in its side, the Ballon Bleu watch adds elegance to male and female wrists.",
     rating: 4.7,
     discount: 0,
@@ -57,30 +53,32 @@ export const watches = [
   },
   {
     id: 5,
-    name: "Speedmaster Professional",
-    brand: "Omega",
+    name: "Florence Diamonds Black & Gold",
+    brand: "Rado",
     price: 7600,
-    category: "Men",
-    image: "/images/arrival1.jpg",
+    category: "women",
+    image: "/images/arrival5.jpg",
     description: "The legendary Speedmaster Moonwatch, worn on all six lunar missions, representing Omega's pioneering spirit.",
     rating: 4.9,
     discount: 20,
     // isNew: false,
     featured: true
   },
-  {
+    {
     id: 6,
-    name: "Overseas Chronograph",
-    brand: "Vacheron Constantin",
+    name: "Bellissima Small Automatic",
+    brand: "Tissot",
     price: 28500,
-    category: "Men",
-    image: "/images/arrival1.jpg",
+    category: "women",
+    image: "/images/arrival6.jpg",
     description: "An invitation to travel, this stainless steel watch houses a column-wheel chronograph with an openworked caseback.",
     rating: 4.8,
     discount: 5,
     // isNew: true,
     featured: true
   },
+  /*
+  ,
   {
     id: 7,
     name: "Datejust 36 Everose",
@@ -92,7 +90,7 @@ export const watches = [
     rating: 4.9,
     discount: 0,
     // isNew: true,
-    featured: false
+    featured: true
   },
   {
     id: 8,
@@ -105,7 +103,7 @@ export const watches = [
     rating: 4.6,
     discount: 30,
     // isNew: false,
-    featured: false
+    featured: true
   },
   {
     id: 9,
@@ -113,16 +111,12 @@ export const watches = [
     brand: "Jaeger-LeCoultre",
     price: 9800,
     category: "Women",
-<<<<<<< HEAD
     image: "/images/arrival1.jpg",
-=======
-    image: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&q=80&w=800",
->>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
     description: "With its swiveling case displaying two dials, it offers an elegant solution for day and night aesthetics.",
     rating: 4.7,
     discount: 15,
     // isNew: true,
-    featured: false
+    featured: true
   },
   {
     id: 10,
@@ -135,7 +129,7 @@ export const watches = [
     rating: 4.8,
     discount: 0,
     // isNew: false,
-    featured: false
+    featured: true
   },
   {
     id: 11,
@@ -148,7 +142,7 @@ export const watches = [
     rating: 4.5,
     discount: 25,
     // isNew: false,
-    featured: false
+    featured: true
   },
   {
     id: 12,
@@ -161,6 +155,7 @@ export const watches = [
     rating: 4.6,
     discount: 10,
     // isNew: true,
-    featured: false
+    featured: true
   }
+  */
 ];

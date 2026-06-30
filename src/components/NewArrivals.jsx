@@ -12,10 +12,13 @@ const NewArrivals = () => {
   // Filter watches that are marked as new arrivals
   const newArrivals = watches;
 
-  // Filter based on active category tab
+  // SYSTEM IMMUNE FILTER: No case-sensitivity bugs anymore!
   const filteredArrivals = activeTab === 'All'
     ? newArrivals
-    : newArrivals.filter(watch => watch.category === activeTab);
+    : newArrivals.filter(watch => 
+        watch.category && 
+        watch.category.trim().toLowerCase() === activeTab.trim().toLowerCase()
+      );
 
   const tabs = ['All', 'Men', 'Women'];
 
@@ -92,7 +95,7 @@ const NewArrivals = () => {
         </motion.div>
       </div>
 
-      {/* Details/Buy Modal for New Arrivals */}
+      {/* Details/Buy Modal */}
       <AnimatePresence>
         {selectedWatch && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
