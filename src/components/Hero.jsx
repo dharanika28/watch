@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FaArrowRight } from 'react-icons/fa';
+import home from "../assets/home.png";
 
 const Hero = () => {
   return (
@@ -11,9 +12,9 @@ const Hero = () => {
       {/* Background Image with Dark Vignette Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=1600"
+          src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1600&q=80"
           alt="Luxury Watch Background"
-          className="w-full h-full object-cover opacity-35 object-center transform scale-105 filter blur-[2px]"
+          className="w-full h-full object-cover opacity-35 object-center transform scale-105 blur-[2px]"
           loading="eager"
         />
         {/* Gradients to darken background */}
@@ -25,7 +26,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 pt-24 pb-12 w-full">
-        
+
         {/* Left Column: Heading and Description */}
         <div className="lg:col-span-7 text-center lg:text-left order-2 lg:order-1">
           <motion.div
@@ -108,7 +109,7 @@ const Hero = () => {
 
             {/* Floating Luxury Watch Image */}
             <motion.img
-              src="https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&q=80&w=800"
+              src={home}
               alt="Featured Rolex Cosmograph Daytona"
               className="w-[85%] h-[85%] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] filter select-none pointer-events-none rounded-full border border-gold/20 p-2 animate-float"
             />
