@@ -1,3 +1,8 @@
+import arrival1 from "../assets/images/new-arrivals/arrival1.jpg";
+import arrival2 from "../assets/images/new-arrivals/arrival2.jpg";
+import arrival3 from "../assets/images/new-arrivals/arrival3.jpg";
+import arrival4 from "../assets/images/new-arrivals/arrival4.jpg";
+import arrival5 from "../assets/images/new-arrivals/arrival5.jpg";
 export const watches = [
   {
     id: 1,
@@ -18,7 +23,7 @@ export const watches = [
     brand: "Patek Philippe",
     price: 85000,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800",
+    image: arrival1,
     description: "With the rounded octagonal bezel of its porthole construction, the Nautilus is the epitome of the elegant sports watch.",
     rating: 5.0,
     discount: 0,
@@ -70,7 +75,7 @@ export const watches = [
     brand: "Vacheron Constantin",
     price: 28500,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1539874754764-5a96559165b0?auto=format&fit=crop&q=80&w=800",
+    image: arrival2,
     description: "An invitation to travel, this stainless steel watch houses a column-wheel chronograph with an openworked caseback.",
     rating: 4.8,
     discount: 5,
@@ -83,7 +88,7 @@ export const watches = [
     brand: "Rolex",
     price: 12400,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=800",
+    image: arrival3,
     description: "The classic Rolex Datejust 36 in Everose gold and Oystersteel, decorated with a diamond-preset bezel.",
     rating: 4.9,
     discount: 0,
@@ -109,7 +114,7 @@ export const watches = [
     brand: "Jaeger-LeCoultre",
     price: 9800,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1526049619474-e8734a736f4a?auto=format&fit=crop&q=80&w=800",
+    image: arrival4,
     description: "With its swiveling case displaying two dials, it offers an elegant solution for day and night aesthetics.",
     rating: 4.7,
     discount: 15,
@@ -148,7 +153,7 @@ export const watches = [
     brand: "Tissot",
     price: 850,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=800",
+    image: arrival5,
     description: "Named after Tissot's home town in the Swiss Jura mountains, this watch features a traditional guilloche dial design.",
     rating: 4.6,
     discount: 10,

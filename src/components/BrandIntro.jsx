@@ -26,7 +26,7 @@ const BrandIntro = () => {
       <div className="absolute bottom-1/4 left-0 w-[300px] h-[300px] bg-neutral-900/50 rounded-full filter blur-[80px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        
+
         {/* Title for accessibility and screen readers */}
         <div className="text-center mb-16 md:mb-20">
           <span className="text-gold text-xs font-semibold tracking-[0.4em] uppercase mb-3 block">
@@ -54,10 +54,10 @@ const BrandIntro = () => {
               {/* Gold borders decoration */}
               <div className="absolute -top-2 -left-2 w-8 h-8 border-t border-l border-gold" />
               <div className="absolute -bottom-2 -right-2 w-8 h-8 border-b border-r border-gold" />
-              
+
               <img
                 src="https://images.unsplash.com/photo-1619134778706-7015533a6150?auto=format&fit=crop&q=80&w=800"
-                alt="Swiss Watchmaking Craftsmanship"
+                alt="LUXYRA Watch Craftmanship"
                 className="w-full h-[350px] md:h-[480px] object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
                 loading="lazy"
               />
@@ -69,7 +69,7 @@ const BrandIntro = () => {
             <h3 className="text-2xl md:text-3xl font-light text-white mb-6 font-luxury-header leading-tight">
               Elegance In Every Detail, Precision In Every Second
             </h3>
-            
+
             <p className="text-neutral-400 font-light text-sm md:text-base leading-relaxed mb-6 font-poppins">
               LUXYRA is a luxury watch showcase platform that allows users to explore premium watch collections from world-renowned brands. Every timepiece reflects precision engineering, timeless elegance, and exceptional craftsmanship.
             </p>
