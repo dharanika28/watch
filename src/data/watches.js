@@ -5,11 +5,11 @@ export const watches = [
     brand: "Rolex",
     price: 34500,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "The ultimate chronograph tool watch, built with 18ct yellow gold and a stunning tachymetric scale bezel.",
     rating: 4.9,
     discount: 10,
-    isNew: false,
+    // isNew: false,
     featured: true
   },
   {
@@ -18,11 +18,11 @@ export const watches = [
     brand: "Patek Philippe",
     price: 85000,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "With the rounded octagonal bezel of its porthole construction, the Nautilus is the epitome of the elegant sports watch.",
     rating: 5.0,
     discount: 0,
-    isNew: true,
+    // isNew: true,
     featured: true
   },
   {
@@ -31,11 +31,11 @@ export const watches = [
     brand: "Audemars Piguet",
     price: 42000,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1619134778706-7015533a6150?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "Features a skeletonized dial displaying the patented double balance wheel geometry for unparalleled precision.",
     rating: 4.8,
     discount: 15,
-    isNew: false,
+    // isNew: false,
     featured: true
   },
   {
@@ -44,11 +44,11 @@ export const watches = [
     brand: "Cartier",
     price: 68000,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "Floating like a balloon and as blue as the cabochon safeguarded in its side, the Ballon Bleu watch adds elegance to male and female wrists.",
     rating: 4.7,
     discount: 0,
-    isNew: false,
+    // isNew: false,
     featured: true
   },
   {
@@ -57,11 +57,11 @@ export const watches = [
     brand: "Omega",
     price: 7600,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1639006570490-79c0c53f1080?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "The legendary Speedmaster Moonwatch, worn on all six lunar missions, representing Omega's pioneering spirit.",
     rating: 4.9,
     discount: 20,
-    isNew: false,
+    // isNew: false,
     featured: true
   },
   {
@@ -70,11 +70,11 @@ export const watches = [
     brand: "Vacheron Constantin",
     price: 28500,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1539874754764-5a96559165b0?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "An invitation to travel, this stainless steel watch houses a column-wheel chronograph with an openworked caseback.",
     rating: 4.8,
     discount: 5,
-    isNew: true,
+    // isNew: true,
     featured: true
   },
   {
@@ -83,11 +83,11 @@ export const watches = [
     brand: "Rolex",
     price: 12400,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "The classic Rolex Datejust 36 in Everose gold and Oystersteel, decorated with a diamond-preset bezel.",
     rating: 4.9,
     discount: 0,
-    isNew: true,
+    // isNew: true,
     featured: false
   },
   {
@@ -96,11 +96,11 @@ export const watches = [
     brand: "TAG Heuer",
     price: 5200,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "Designed for professional drivers, featuring a signature skeleton dial and an in-house automatic chronograph calibre.",
     rating: 4.6,
     discount: 30,
-    isNew: false,
+    // isNew: false,
     featured: false
   },
   {
@@ -109,11 +109,11 @@ export const watches = [
     brand: "Jaeger-LeCoultre",
     price: 9800,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1526049619474-e8734a736f4a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "With its swiveling case displaying two dials, it offers an elegant solution for day and night aesthetics.",
     rating: 4.7,
     discount: 15,
-    isNew: true,
+    // isNew: true,
     featured: false
   },
   {
@@ -122,11 +122,11 @@ export const watches = [
     brand: "Cartier",
     price: 11500,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1517462964-21fdcec3f25b?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "An elongated tank casing, featuring 18ct yellow gold and a leather strap, displaying classic Roman numerals.",
     rating: 4.8,
     discount: 0,
-    isNew: false,
+    // isNew: false,
     featured: false
   },
   {
@@ -135,11 +135,11 @@ export const watches = [
     brand: "Rado",
     price: 2400,
     category: "Women",
-    image: "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "The tapered lightweight bracelet gently wraps around the wrist, with an open heart dial showing the automatic movements.",
     rating: 4.5,
     discount: 25,
-    isNew: false,
+    // isNew: false,
     featured: false
   },
   {
@@ -148,11 +148,11 @@ export const watches = [
     brand: "Tissot",
     price: 850,
     category: "Men",
-    image: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=800",
+    image: "/images/arrival1.jpg",
     description: "Named after Tissot's home town in the Swiss Jura mountains, this watch features a traditional guilloche dial design.",
     rating: 4.6,
     discount: 10,
-    isNew: true,
+    // isNew: true,
     featured: false
   }
 ];
