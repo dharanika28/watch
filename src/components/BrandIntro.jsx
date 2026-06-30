@@ -57,9 +57,15 @@ const BrandIntro = () => {
               <div className="absolute -bottom-2 -right-2 w-8 h-8 border-b border-r border-gold" />
 
               <img
+<<<<<<< HEAD
                 src={showroom}
                 alt="Swiss Watchmaking Craftsmanship"
                 className="w-full h-[350px] md:h-[480px] object-cover rounded-lg shadow-2xl"
+=======
+                src="https://images.unsplash.com/photo-1619134778706-7015533a6150?auto=format&fit=crop&q=80&w=800"
+                alt="LUXYRA Watch Craftmanship"
+                className="w-full h-[350px] md:h-[480px] object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
+>>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
                 loading="lazy"
               />
             </motion.div>

@@ -11,7 +11,11 @@ const Categories = () => {
       title: "Men's Watches",
       subtitle: "Bold & Mechanical",
       description: "Designed for strength, accuracy, and presence. Discover engineered chronographs, dive timepieces, and automatic movements.",
+<<<<<<< HEAD
       image: menswatches,
+=======
+      image: "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=80&w=800",
+>>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
       target: "new-arrivals",
     },
     {
@@ -19,7 +23,11 @@ const Categories = () => {
       title: "Women's Watches",
       subtitle: "Grace & Elegance",
       description: "Refining elegance with precious stones and jewelry-grade rose gold finishes. Timepieces crafted to grace any occasion.",
+<<<<<<< HEAD
       image: womenswatches,
+=======
+      image: "https://images.unsplash.com/photo-1772442366425-62a79caca681?auto=format&fit=crop&q=80&w=800",
+>>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
       target: "new-arrivals",
     }
   ];

@@ -18,7 +18,11 @@ export const watches = [
     brand: "Patek Philippe",
     price: 85000,
     category: "Men",
+<<<<<<< HEAD
     image: "/images/arrival1.jpg",
+=======
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800",
+>>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
     description: "With the rounded octagonal bezel of its porthole construction, the Nautilus is the epitome of the elegant sports watch.",
     rating: 5.0,
     discount: 0,
@@ -109,7 +113,11 @@ export const watches = [
     brand: "Jaeger-LeCoultre",
     price: 9800,
     category: "Women",
+<<<<<<< HEAD
     image: "/images/arrival1.jpg",
+=======
+    image: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&q=80&w=800",
+>>>>>>> 1bf5aaed763024024fddf3c3d944bac6daef4b6e
     description: "With its swiveling case displaying two dials, it offers an elegant solution for day and night aesthetics.",
     rating: 4.7,
     discount: 15,
