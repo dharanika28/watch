@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FaArrowRight } from 'react-icons/fa';
-import menswatches from "../assets/mens watches.jpg";
-import womenswatches from "../assets/womens watches.jpg";
+import menswatches from "../assets/menswatches.jpg";
+import womenswatches from "../assets/womenswatches.jpg";
 
 const Categories = () => {
   const categories = [
@@ -11,7 +11,7 @@ const Categories = () => {
       title: "Men's Watches",
       subtitle: "Bold & Mechanical",
       description: "Designed for strength, accuracy, and presence. Discover engineered chronographs, dive timepieces, and automatic movements.",
-      image: "menswatches",
+      image: menswatches,
       target: "new-arrivals",
     },
     {
@@ -19,7 +19,7 @@ const Categories = () => {
       title: "Women's Watches",
       subtitle: "Grace & Elegance",
       description: "Refining elegance with precious stones and jewelry-grade rose gold finishes. Timepieces crafted to grace any occasion.",
-      image: "womenswatches",
+      image: womenswatches,
       target: "new-arrivals",
     }
   ];
