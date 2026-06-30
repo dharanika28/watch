@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FaArrowRight } from 'react-icons/fa';
-import home from "../assets/home.png";
+import home from "../assets/home.jpg";
 
 const Hero = () => {
   return (
